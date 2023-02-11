@@ -7,25 +7,7 @@ class UserMySqlContainer {
         this.database = knex(options)
         this.tableName = tableName
     }
-    //Busca el ID del usuario, con el fin de compararlo con el de la sesion
-    //Ver de ysar async await
-    getUserById = (idUsuario, accion) => { }
-    //Busca un usuario en la BD
-    findOneUser = (email, pass, accion) => {
-    }
 
-    //Crear un usuario
-    createUser = async (email, nombre, password, accion) => {
-        const dato = await this.database.from(this.tableName).select("*").where("userName", email)
-        if (dato != "") return accion(null, null, { message: "El usuario no existe" })
-        const newUser = {
-            name: nombre,
-            userName: email,
-            password: createHash(password)
-        }
-        const usuarioCreado = await this.database.from(this.tableName).insert(newUser)
-        accion(null, usuarioCreado)
-    }// Find el create user
 
     createNewUserPostman = async (user) => {
         try {
