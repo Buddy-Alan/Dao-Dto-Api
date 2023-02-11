@@ -1,0 +1,403 @@
+[2023-02-07T19:07:50.384] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:07:54.987] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:07:58.306] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:51:55.939] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'a123@a' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:55:52.344] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: '123123123123a@a' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:56:10.053] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'pepito@jamon.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:57:10.426] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'a@a' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:57:14.137] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'a@a' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:57:20.372] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:57:24.063] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:57:54.491] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:58:32.704] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T19:59:03.979] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:00:57.739] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:01:52.544] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:14:01.057] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:15:13.286] [ERROR] default - MongooseError: Query was already executed: users.find({ userName: 'buddy.alan2@hotmail.com' })
+    at model.Query._wrappedThunk [as _find] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _find] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:48:46.071] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'a@a123' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:48:53.345] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'a@a123' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T20:49:07.266] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: '1@123' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:14:49.906] [ERROR] default - MongooseError: Query was already executed: users.find({ userName: '1@123' })
+    at model.Query._wrappedThunk [as _find] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _find] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:15:49.491] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: '1@123' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:16:05.736] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: '1@123' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:16:14.604] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: '1@123' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:22:39.396] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'q@q' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:49:24.091] [ERROR] default - MongooseError: Query was already executed: users.find({ userName: 'p@p' })
+    at model.Query._wrappedThunk [as _find] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _find] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:49:37.234] [ERROR] default - MongooseError: Query was already executed: users.find({ userName: 'w@w' })
+    at model.Query._wrappedThunk [as _find] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _find] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:50:16.422] [ERROR] default - MongooseError: Query was already executed: users.find({ userName: 'w@a' })
+    at model.Query._wrappedThunk [as _find] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _find] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:51:40.530] [ERROR] default - MongooseError: Query was already executed: users.find({ userName: '5@5' })
+    at model.Query._wrappedThunk [as _find] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _find] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T21:52:06.952] [ERROR] default - MongooseError: Query was already executed: users.findOne({ userName: 'a@1' })
+    at model.Query._wrappedThunk [as _findOne] (D:\Coder House\BackEnd\Desafio 18\node_modules\mongoose\lib\helpers\query\wrapThunk.js:23:19)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  originalStack: 'Error\n' +
+    '    at model.Query._wrappedThunk [as _findOne] (D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\mongoose\\lib\\helpers\\query\\wrapThunk.js:27:28)\n' +
+    '    at D:\\Coder House\\BackEnd\\Desafio 18\\node_modules\\kareem\\index.js:426:25\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+[2023-02-07T22:12:20.154] [ERROR] default - Hubo un error en la peticion de productos, el error es: TypeError: req.isAuthenticated is not a function
+[2023-02-10T01:52:25.986] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:15:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:53:02.756] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:17:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:53:11.471] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:17:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:53:17.999] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:17:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:53:45.940] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:18:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:54:06.688] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:20:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:59:00.718] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:21:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T01:59:09.513] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:21:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T02:00:49.929] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:21:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T02:01:01.598] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:21:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T02:01:07.034] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:21:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-10T02:01:22.925] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOneUser')
+    at findOneUserDB (file:///D:/Coder%20House/BackEnd/Desafio%2018/src/services/user.service.js:21:22)
+    at Strategy._verify (file:///D:/Coder%20House/BackEnd/Desafio%2018/server.js:123:13)
+    at Strategy.authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport-local\lib\strategy.js:88:12)
+    at attempt (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:369:16)
+    at authenticate (D:\Coder House\BackEnd\Desafio 18\node_modules\passport\lib\middleware\authenticate.js:370:7)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
