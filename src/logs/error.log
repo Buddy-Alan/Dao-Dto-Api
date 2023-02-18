@@ -401,3 +401,887 @@
     at Route.dispatch (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\route.js:114:3)
     at Layer.handle [as handle_request] (D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\layer.js:95:5)
     at D:\Coder House\BackEnd\Desafio 18\node_modules\express\lib\router\index.js:284:15
+[2023-02-17T19:19:00.293] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:19:43.260] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:20:24.450] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:21:32.811] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:23:27.369] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T19:23:56.178] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T19:24:25.273] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T19:25:03.612] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T19:25:22.869] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:25:41.358] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:26:11.313] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:27:21.978] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:28:07.245] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:28:17.300] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:28:29.686] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:28:51.364] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:28:58.537] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:29:23.354] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:30:13.100] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:30:43.744] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:32:55.657] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:33:06.238] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:33:41.150] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:33:47.821] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:39:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:34:05.489] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:40:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:35:38.911] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:40:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:37:13.350] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:41:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:38:04.590] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\express\lib\response.js:278:15)
+    at postSaveProductControllers (file:///D:/Coder%20House/BackEnd/Desafio20TestYPeticiones/src/controllers/product.controllers.js:41:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-02-17T19:39:33.392] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T19:39:39.481] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T19:39:40.758] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:02:51.268] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:06:18.115] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:15:18.700] [ERROR] default - MongoBulkWriteError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera2" }
+    at OrderedBulkOperation.handleWriteError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:922:22)
+    at resultHandler (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\bulk\common.js:401:27)
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\utils.js:348:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 11000,
+  writeErrors: [ WriteError { err: [Object] } ],
+  result: BulkWriteResult {
+    result: {
+      ok: 1,
+      writeErrors: [Array],
+      writeConcernErrors: [],
+      insertedIds: [Array],
+      nInserted: 0,
+      nUpserted: 0,
+      nMatched: 0,
+      nModified: 0,
+      nRemoved: 0,
+      upserted: [],
+      opTime: [Object]
+    }
+  },
+  insertedDocs: [],
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:34:31.634] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera5" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera5' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:36:03.648] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera5" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera5' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:37:42.079] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera4" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera4' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:41:50.251] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:42:54.866] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:44:00.042] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:44:14.236] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:44:35.458] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:44:51.307] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:45:14.910] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:45:30.836] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:45:42.399] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:45:52.103] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T20:46:01.224] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerPrueba.productos index: title_1 dup key: { title: "Cartuchera3" }
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection_pool.js:308:25
+    at D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:213:17
+    at handleOperationResult (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\sdam\server.js:329:20)
+    at Connection.onMessage (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:219:9)
+    at MessageStream.<anonymous> (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at TLSSocket.ondata (node:internal/streams/readable:766:22)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23) {
+  index: 0,
+  code: 11000,
+  keyPattern: { title: 1 },
+  keyValue: { title: 'Cartuchera3' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-02-17T21:46:02.491] [ERROR] default - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "productos"
+    at model.Query.exec (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\query.js:4897:21)
+    at Query.then (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\query.js:4996:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1201:12)
+      at SchemaType._castForQuery (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1648:15)
+      at SchemaType.castForQuery (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1636:15)
+      at SchemaType.castForQueryWrapper (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\cast.js:342:32)
+      at Query.cast (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\query.js:5325:12),
+  valueType: 'string'
+}
+[2023-02-17T21:47:09.565] [ERROR] default - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "productos"
+    at model.Query.exec (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\query.js:4897:21)
+    at Query.then (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\query.js:4996:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at SchemaType.applySetters (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1201:12)
+      at SchemaType._castForQuery (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1648:15)
+      at SchemaType.castForQuery (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1636:15)
+      at SchemaType.castForQueryWrapper (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\cast.js:342:32)
+      at Query.cast (D:\Coder House\BackEnd\Desafio20TestYPeticiones\node_modules\mongoose\lib\query.js:5325:12),
+  valueType: 'string'
+}

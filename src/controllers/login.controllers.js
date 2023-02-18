@@ -1,6 +1,4 @@
 import { getAllUser, postUserPostman } from "../services/user.service.js"
-import rutaGet from "../../js/rutaGet.js"
-import rutaPost from "../../js/rutaPost.js"
 
 export const getAllUserController = async (req, res) => {
     const allUser = await getAllUser()

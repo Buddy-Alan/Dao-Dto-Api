@@ -14,6 +14,7 @@ class UserMySqlContainer {
             const dato = await this.database.from(this.tableName).select("*").where("email", user.email)
             if (dato != "") return ({ message: "El usuario ya existe, por favor intente con otro email" })
             const idUsuarioCreado = await this.database.from(this.tableName).insert(user)
+            console.log(idUsuarioCreado.json())
             const usuario = await this.database.from(this.tableName).select("*").where("id", idUsuarioCreado[0])
             const usersDto = convertToDto(usuario)
             return {

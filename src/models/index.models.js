@@ -1,4 +1,5 @@
 import { userModels } from "./dbModels/mongo/userModels.js";
+import { productModels } from "./dbModels/mongo/product.managers.js";
 import { MongoClient } from "./clients/dbClientMongo.js";
 import { MySqlClient } from "./clients/dbClientMySql.js";
 import { createTableUser, nameTable } from "./dbModels/mySql/userModelsMysql.js"
@@ -17,6 +18,7 @@ const conexion = {
 
 export const getApiDato = async (DB) => {
     let userDaoContainer;
+    let productDaoContainer;
     switch (DB) {
         case 'MYSQL':
             const { UserMySqlDao } = await import("./daos/users/userMysql.js")
@@ -28,13 +30,15 @@ export const getApiDato = async (DB) => {
             break;
         case 'MONGO':
             const { UserMgDao } = await import("./daos/users/userMgDao.js")
+            const { ProductMgDao } = await import("./daos/products/productMgDao.js")
             const cliente = new MongoClient();
             await cliente.connect()
             userDaoContainer = new UserMgDao(userModels)
+            productDaoContainer = new ProductMgDao(productModels)
             break;
         default:
             console.log("Ocurrio un error")
             break
     }
-    return { userDaoContainer }
+    return { userDaoContainer, productDaoContainer }
 }
